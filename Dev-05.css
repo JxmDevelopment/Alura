@@ -1,0 +1,43 @@
+*
+{
+  text-align: center;
+}
+
+body
+{
+  font-family: "Roboto Mono", monospace;
+  background-image: url("https://getwallpapers.com/wallpaper/full/5/2/0/892151-download-champions-league-wallpaper-1920x1080.jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+.page-title
+{
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle
+{
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+table
+{
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1
+{
+  color: white;
+}
+
+th,
+tr,
+td
+{
+  border: solid 1px white;
+  color: white;
+}

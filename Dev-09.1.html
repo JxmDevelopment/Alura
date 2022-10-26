@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+	<link rel='stylesheet' href='./Dev-09.css'/>	
+	<title>Youtube Downloader</title>
+	<h1>Insira o Link:</h1>
+</head>
+<style>
+	h1
+	{
+	color:rgb(2, 68, 248);
+	}
+	html
+	{
+		background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/11/cinema-01.jpg")
+	}
+</style>
+<script> 
+
+	function convert()
+	{
+		linkP="https://convert2mp3s.com/api/widgetv2?url="
+		link= document.getElementById("test").value
+		resul= linkP+link
+		document.getElementById("video").src=resul
+		convertido()
+	}
+	function convertido()
+	{
+		document.getElementById("video").hidden=false
+	}
+	
+</script>
+<body>
+	<input id="test" class='URL-input' placeholder='https://www.youtube.com'></button>
+	<button class='convert-button' type="submit" onclick="convert()">Converter</button>
+	<iframe id="video" src="" width="100%" height="700%" allowTransparency="true" hidden="true"></iframe>
+</body>
+</html>
+
+<script>
+/*
+https://github.com/matthew-asuncion/Fast-YouTube-to-MP3-Converter-API/blob/master/Developer%20API.html [ LINHA 146 A 148]
+*/
+</script>

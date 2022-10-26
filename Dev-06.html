@@ -1,0 +1,30 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="./Dev-06.js"></script>
+  <link rel="stylesheet" href="./Dev-06.css" />
+  <title>Projeto 06 - JXM</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">League Of Cards</h1>
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+        <form id="form">
+            <h2 id="texto"></h2>
+            <h3 id="img"></h3>
+            <div class="wrapper">
+                    <div id="carta-jogador">
+                        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
+                        style=" width: inherit; height: inherit; position: absolute;">
+                    </div>
+                    <div id="carta-maquina" class="carta">
+                        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
+                        style="width: inherit; height: inherit; position: absolute;">
+                    </div>
+            </div>
+            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            <div id="resultado"></div>
+        </form>
+    </div>
+</body>
+</html>

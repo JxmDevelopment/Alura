@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body
+{
+background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+  
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container
+{
+  background: #ECF4FF; /*Fundo*/
+  color: #1C1C1C; /*Cor Da Fonte*/
+  margin: 64px; /*Margem 'Lados'*/ 
+  border-radius: 20px; /*Raio Da Borda*/
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42); /*Sombra Embaixo Do Elemento*/
+  padding:64px; /*Encolhe Os Elementos*/
+}
+
+.perfil
+{
+  display: flex;  /*'Aperta'*/
+  align-items: center; /*Centraliza*/
+}
+
+.perfil-foto
+{
+  border-radius: 460px; /*Cria A Borda Redonda*/
+  max-height: 160px; /*Tamanho Da Foto*/
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo
+{
+  margin-left: 16px;
+}
+
+.titulo h1
+{
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3
+{
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.projetos
+{
+  display: flex;
+  flex-direction: column;
+}

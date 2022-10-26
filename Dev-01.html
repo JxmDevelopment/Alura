@@ -1,0 +1,28 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="./Dev-01.js"></script>
+  <link rel="stylesheet" href="./Dev-01.css" />
+  <title>Projeto 01 - JXM</title>
+</head>
+<div class="container">
+  <h1 class="page-title">
+    <font color="green">CONVERSOR DE DOLAR</font>
+  </h1><br>
+  <p class="page-subtitle">VALOR ATUAL DO DOLAR: <font size=5 color="green"> R$5,28 </font>
+  </p>
+  <p class="page-subtitle">VALOR ATUAL DO EURO: <font size=5 color="green">R$5,17 </font>
+  </p><br><br><br><br><br><br><br><br>
+  <img src="https://www.guiadacotacao.com.br/assets/images/moeda/dolar.jpg" id="nota" class="img" alt=""><br><br>
+  <select id="moedas">
+    <option value="dolar">Dolar</option>
+    <option value="euro">Euro</option>
+  </select><br><br>
+  <input type="number" id="valor" placeholder="Insira o Valor em R$:" /><br>
+  <button id="btConv" type="submit" onclick="ConverterMoedas()">Converter</button>
+  <script>
+    document.getElementById('moedas').addEventListener("change", TrocarImagem)
+  </script>
+  <h2 id="valorConvertido"></h2>
+</div>
+</html>

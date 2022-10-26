@@ -1,0 +1,61 @@
+body
+{
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+padding: 10px;
+font-size: 20px;
+font-weight: 900;
+  background-image: url("https://media.gq-magazine.co.uk/photos/5d82475cf2c0d800086c4b15/16:9/w_2560%2Cc_limit/1232_PB4_04APRIL17RV.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+ 
+.page-title
+{
+  color: #c0c0c0;
+  margin: 0px;
+}
+
+.page-subtitle
+{
+  margin-top: 0px;
+}
+ 
+#listaFilmes img
+{
+  margin: 10px;
+  max-height: 250px;
+}
+
+.form-wrapper
+{
+  margin: 0 0 15px;
+}
+
+.form-wrapper input
+{
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button
+{
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover
+{
+  opacity: 0.8;
+}

@@ -1,0 +1,45 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1712/Dollar_Bitcoin_4K_HD_Close-up_1366x768.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+p {
+  color: white;
+  margin: 5;
+  font-weight: 500;
+
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 200;
+}
+
+.img {
+  width: 250px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}

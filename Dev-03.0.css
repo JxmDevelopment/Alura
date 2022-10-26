@@ -1,0 +1,30 @@
+body
+{
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://images3.alphacoders.com/939/939120.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.page-title 
+{
+color: #ffffff;
+margin: 0 0 3px;
+}
+.page-subtitle
+{
+color: #ffffff;
+margin-top: 5px;
+}
+
+img
+{
+max-height: 250px;
+}
+p
+{
+color: #ff3333;
+}
